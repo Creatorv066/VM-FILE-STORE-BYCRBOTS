@@ -7,7 +7,7 @@ class Config(object):
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Marathi_Serials_Provider_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002056408106"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "modijiurl.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "fe930e58ec20ee01ad182f2f4320ff9149c44dc3")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "7bc2ae89477c584f3a55d96ebfd5bb599ba076ec")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6899191648"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Drxfile:Drxfile@drxfile.teugktb.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002091923966")
