@@ -21,13 +21,13 @@ class Config(object):
 This is a Permanent FileStore Bot. 
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
-╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
+╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ💡]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🤖 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
 │
-├🔸 Language: [Python 3](https://www.python.org)
+├📝 Language: [Python 3](https://www.python.org)
 │
-├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
+├🧰 Library: [Pyrogram](https://docs.pyrogram.org)
 │
 ╰──────[ 😎 ]───────────⍟
 """
@@ -41,7 +41,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 
-How to Use Bot & it's Benefits??
+ℹ️ How to Use Bot & it's Benefits??
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
 
