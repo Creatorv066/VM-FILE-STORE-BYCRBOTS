@@ -77,13 +77,13 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/Marathi_Tv_Serialsx")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/iTS_ViSHWA14"),
-                        InlineKeyboardButton("Developer", url="https://t.me/iTS_ViSHWA14")
+                        InlineKeyboardButton("Support Group 🌐", url="https://t.me/iTS_ViSHWA14"),
+                        InlineKeyboardButton("Developer 👨‍💻", url="https://t.me/iTS_ViSHWA14")
                     ]
                 ]
             )
@@ -322,8 +322,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://t.me/iTS_ViSHWA14")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -340,8 +340,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://t.me/iTS_ViSHWA14")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome")
                     ]
                 ]
             )
@@ -357,13 +357,13 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Updates Channel", url="https://t.me/Marathi_Tv_Serialsx")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/iTS_ViSHWA14"),
-                        InlineKeyboardButton("Developer", url="https://t.me/iTS_ViSHWA14")
+                        InlineKeyboardButton("Support Group 🌐", url="https://t.me/iTS_ViSHWA14"),
+                        InlineKeyboardButton("Developer 👨‍💻", url="https://t.me/iTS_ViSHWA14")
                     ]
                 ]
             )
@@ -379,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/iTS_ViSHWA14).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥 🌐](https://t.me/iTS_ViSHWA14).",
                         disable_web_page_preview=True
                     )
                     return
@@ -401,7 +401,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/iTS_ViSHWA14).",
+                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥 🌐](https://t.me/iTS_ViSHWA14).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,12 +411,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Marathi_Tv_Serialsx"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/iTS_ViSHWA14")
+                        InlineKeyboardButton("Updates Channel 📣", url="https://t.me/Marathi_Tv_Serialsx"),
+                        InlineKeyboardButton("Support Group 🌐", url="https://t.me/iTS_ViSHWA14")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
