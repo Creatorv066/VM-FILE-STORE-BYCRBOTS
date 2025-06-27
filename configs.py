@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "27344784"))
   API_HASH = os.environ.get("API_HASH", "a12613f54c74d00bfb76cf8f0688c2ee")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6923368496:AAFpa4Mbs0heTUwFr0aHgq_-dacWH4t73cc")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6923368496:AAEFM-Mpb_F2a_u5jDliuXYupbRZ-bP9VlA")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Marathi_Serials_Provider_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002056408106"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "papajiurl.com")
