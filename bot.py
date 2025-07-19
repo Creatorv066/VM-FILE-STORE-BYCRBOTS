@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Marathi_Tv_Serialsx")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/ViSHWA_MOViEX")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Marathi_Tv_Serialsx")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/ViSHWA_MOViEX")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -411,7 +411,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel 📣", url="https://t.me/Marathi_Tv_Serialsx"),
+                        InlineKeyboardButton("Updates Channel 📣", url="https://t.me/ViSHWA_MOViEX"),
                         InlineKeyboardButton("Support Group 🌐", url="https://t.me/iTS_ViSHWA14")
                     ],
                     [
